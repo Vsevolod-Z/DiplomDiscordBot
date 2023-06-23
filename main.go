@@ -23,7 +23,7 @@ var dg *discordgo.Session
 
 func main() {
 	var err error
-	dg, err = discordgo.New("Bot MTEwMjI0MTU4OTEzODU3NTM2MA.G93dEZ.z2DDvKky4UNSxl7IEkztmYNGoErtXrRr50KMjI")
+	dg, err = discordgo.New("Bot token")
 	if err != nil {
 		fmt.Println("Error creating Discord session: ", err)
 		return
